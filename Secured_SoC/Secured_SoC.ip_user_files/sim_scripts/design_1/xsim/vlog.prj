@@ -1,0 +1,25 @@
+verilog xil_defaultlib --include "../../../../Secured_SoC.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../Secured_SoC.srcs/sources_1/bd/design_1/ipshared/70cf/hdl" --include "../../../../Secured_SoC.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0" \
+"../../../bd/design_1/ipshared/e084/AVC.v" \
+"../../../bd/design_1/ipshared/e084/IPFW.v" \
+"../../../bd/design_1/ipshared/e084/hdl/IPFW_v3_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/e084/hdl/IPFW_v3_0.v" \
+"../../../bd/design_1/ip/design_1_IPFW_0_0/sim/design_1_IPFW_0_0.v" \
+"../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../bd/design_1/ipshared/57b0/Policy_Server.v" \
+"../../../bd/design_1/ipshared/57b0/hdl/Policy_Server_v3_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/57b0/ram.v" \
+"../../../bd/design_1/ipshared/57b0/hdl/Policy_Server_v3_0.v" \
+"../../../bd/design_1/ip/design_1_Policy_Server_0_0/sim/design_1_Policy_Server_0_0.v" \
+"../../../bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" \
+"../../../bd/design_1/ipshared/8156/Sandbox.v" \
+"../../../bd/design_1/ipshared/8156/hdl/Sandbox_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/8156/hdl/Sandbox_v1_0.v" \
+"../../../bd/design_1/ip/design_1_Sandbox_0_0/sim/design_1_Sandbox_0_0.v" \
+"../../../bd/design_1/ipshared/de54/sources_1/new/PWM.v" \
+"../../../bd/design_1/ip/design_1_PWM_0_0/sim/design_1_PWM_0_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

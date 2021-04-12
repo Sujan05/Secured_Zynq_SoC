@@ -1,0 +1,54 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 670 -defaultsOSRD
+preplace port leds_4bits -pg 1 -y 1110 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 690 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -y 940 -defaultsOSRD
+preplace inst Sandbox_0 -pg 1 -lvl 3 -y 940 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 3 -y 1110 -defaultsOSRD
+preplace inst IPFW_0 -pg 1 -lvl 3 -y 140 -defaultsOSRD
+preplace inst RSACypher_0 -pg 1 -lvl 2 -y 410 -defaultsOSRD
+preplace inst Policy_Server_0 -pg 1 -lvl 3 -y 500 -defaultsOSRD
+preplace inst PWM_0 -pg 1 -lvl 2 -y 580 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 880 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 720 -defaultsOSRD
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 N
+preplace netloc processing_system7_0_DDR 1 1 3 NJ 670 NJ 670 NJ
+preplace netloc Policy_Server_0_WSI_FW 1 2 2 890 320 1290
+preplace netloc Policy_Server_0_CaptureWR_FW 1 2 2 930 310 1300
+preplace netloc IPFW_0_inmod_to_ip 1 1 3 510 270 NJ 270 1340
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 430
+preplace netloc Sandbox_0_reset 1 1 3 480 300 NJ 300 1330
+preplace netloc IPFW_0_UpdateWR 1 2 2 910 330 1310
+preplace netloc IPFW_0_go_IP 1 1 3 460 10 NJ 10 1360
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 30 830 430
+preplace netloc ps7_0_axi_periph_M03_AXI 1 2 1 810
+preplace netloc Sandbox_0_UpdateWR 1 2 2 880 350 1320
+preplace netloc Policy_Server_0_WSI_SB 1 2 2 930 380 1270
+preplace netloc Sandbox_0_dutycycle_to_ip 1 1 3 510 660 NJ 660 1270
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 830
+preplace netloc Sandbox_0_WSO 1 2 2 920 360 1310
+preplace netloc IPFW_0_inexp_to_ip 1 1 3 500 260 NJ 260 1350
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 NJ 690 NJ 690 NJ
+preplace netloc Policy_Server_0_CaptureWR_SB 1 2 2 890 370 1280
+preplace netloc IPFW_0_WSO 1 2 2 900 290 1320
+preplace netloc RSACypher_0_ready 1 2 1 810
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 2 440 700 870
+preplace netloc axi_gpio_0_GPIO 1 3 1 NJ
+preplace netloc PWM_0_pwm_signal 1 2 1 840
+preplace netloc RSACypher_0_cypher 1 2 1 820
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 610 450 250 860
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 850
+preplace netloc IPFW_0_reset 1 1 3 470 280 NJ 280 1330
+preplace netloc IPFW_0_indata_to_ip 1 1 3 490 20 NJ 20 1350
+levelinfo -pg 1 0 230 660 1100 1380 -top 0 -bot 1190
+"
+}
+{
+   "da_axi4_cnt":"4",
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"2",
+   "da_ps7_cnt":"1"
+}
